@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C20D0D41586A3BF00B0A6B2 /* card_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C20D0D31586A3BF00B0A6B2 /* card_back.png */; };
+		5C20D0D715874DE100B0A6B2 /* WSStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20D0D615874DE000B0A6B2 /* WSStatusView.m */; };
+		5C724CE81589C9B6001B9D76 /* WSTrick.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C724CE71589C9B5001B9D76 /* WSTrick.m */; };
+		5CA4C7391578C00F005941D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA4C7381578C00F005941D1 /* UIKit.framework */; };
+		5CA4C73B1578C00F005941D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA4C73A1578C00F005941D1 /* Foundation.framework */; };
+		5CA4C73D1578C00F005941D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA4C73C1578C00F005941D1 /* CoreGraphics.framework */; };
+		5CA4C7431578C00F005941D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CA4C7411578C00F005941D1 /* InfoPlist.strings */; };
+		5CA4C7451578C00F005941D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA4C7441578C00F005941D1 /* main.m */; };
+		5CA4C7491578C00F005941D1 /* WSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA4C7481578C00F005941D1 /* WSAppDelegate.m */; };
+		5CA4C7581578C065005941D1 /* WSGameBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA4C7571578C065005941D1 /* WSGameBoard.m */; };
+		5CA4C75B1578C078005941D1 /* WSCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA4C75A1578C078005941D1 /* WSCard.m */; };
+		5CA4C7661578C169005941D1 /* NSArray+RandomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA4C75E1578C168005941D1 /* NSArray+RandomObject.m */; };
+		5CA4C7671578C169005941D1 /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA4C7601578C168005941D1 /* NSMutableArray+Shuffle.m */; };
+		5CA4C7681578C169005941D1 /* clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA4C7621578C168005941D1 /* clubs.png */; };
+		5CA4C7691578C169005941D1 /* diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA4C7631578C168005941D1 /* diamonds.png */; };
+		5CA4C76A1578C169005941D1 /* hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA4C7641578C168005941D1 /* hearts.png */; };
+		5CA4C76B1578C169005941D1 /* spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA4C7651578C168005941D1 /* spades.png */; };
+		5CA4C76E1578C1A5005941D1 /* WSPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA4C76D1578C1A4005941D1 /* WSPlayer.m */; };
+		5CA4C7751578CA4C005941D1 /* WSDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA4C7741578CA4C005941D1 /* WSDeck.m */; };
+		5CA4C7781578CA65005941D1 /* WSStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA4C7771578CA65005941D1 /* WSStack.m */; };
+		5CC18CB81587567D00FB0997 /* WSBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC18CB71587567D00FB0997 /* WSBoardView.m */; };
+		5CC18CBD15876F3800FB0997 /* WSChooseTrumpsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC18CBC15876F3800FB0997 /* WSChooseTrumpsView.m */; };
+		5CC18CBF158880DD00FB0997 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC18CBE158880DD00FB0997 /* QuartzCore.framework */; };
+		791668E3158B67E300987C18 /* WSMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 791668E2158B67E300987C18 /* WSMessageView.m */; };
+		79597DB715AF5E5700A9E894 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79597DB615AF5E5700A9E894 /* GameKit.framework */; };
+		79597DBE15B0177400A9E894 /* WSMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79597DBD15B0177300A9E894 /* WSMenuView.m */; };
+		7982D9FD1599D57C00F69C53 /* WSTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = 7982D9FC1599D57C00F69C53 /* WSTeam.m */; };
+		799B8662166E4F820056D7E7 /* WSDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 799B8661166E4F820056D7E7 /* WSDialogView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C20D0D31586A3BF00B0A6B2 /* card_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_back.png; sourceTree = "<group>"; };
+		5C20D0D515874DE000B0A6B2 /* WSStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSStatusView.h; sourceTree = "<group>"; };
+		5C20D0D615874DE000B0A6B2 /* WSStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSStatusView.m; sourceTree = "<group>"; };
+		5C724CE61589C9B5001B9D76 /* WSTrick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTrick.h; sourceTree = "<group>"; };
+		5C724CE71589C9B5001B9D76 /* WSTrick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTrick.m; sourceTree = "<group>"; };
+		5CA4C7341578C00F005941D1 /* klaverjas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = klaverjas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA4C7381578C00F005941D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CA4C73A1578C00F005941D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CA4C73C1578C00F005941D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CA4C7401578C00F005941D1 /* klaverjas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "klaverjas-Info.plist"; sourceTree = "<group>"; };
+		5CA4C7421578C00F005941D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CA4C7441578C00F005941D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CA4C7461578C00F005941D1 /* klaverjas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "klaverjas-Prefix.pch"; sourceTree = "<group>"; };
+		5CA4C7471578C00F005941D1 /* WSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSAppDelegate.h; sourceTree = "<group>"; };
+		5CA4C7481578C00F005941D1 /* WSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSAppDelegate.m; sourceTree = "<group>"; };
+		5CA4C7561578C065005941D1 /* WSGameBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSGameBoard.h; sourceTree = "<group>"; };
+		5CA4C7571578C065005941D1 /* WSGameBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WSGameBoard.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5CA4C7591578C078005941D1 /* WSCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCard.h; sourceTree = "<group>"; };
+		5CA4C75A1578C078005941D1 /* WSCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCard.m; sourceTree = "<group>"; };
+		5CA4C75D1578C168005941D1 /* NSArray+RandomObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RandomObject.h"; sourceTree = "<group>"; };
+		5CA4C75E1578C168005941D1 /* NSArray+RandomObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RandomObject.m"; sourceTree = "<group>"; };
+		5CA4C75F1578C168005941D1 /* NSMutableArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffle.h"; sourceTree = "<group>"; };
+		5CA4C7601578C168005941D1 /* NSMutableArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffle.m"; sourceTree = "<group>"; };
+		5CA4C7621578C168005941D1 /* clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clubs.png; sourceTree = "<group>"; };
+		5CA4C7631578C168005941D1 /* diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamonds.png; sourceTree = "<group>"; };
+		5CA4C7641578C168005941D1 /* hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hearts.png; sourceTree = "<group>"; };
+		5CA4C7651578C168005941D1 /* spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spades.png; sourceTree = "<group>"; };
+		5CA4C76C1578C1A4005941D1 /* WSPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPlayer.h; sourceTree = "<group>"; };
+		5CA4C76D1578C1A4005941D1 /* WSPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WSPlayer.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5CA4C7731578CA4C005941D1 /* WSDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDeck.h; sourceTree = "<group>"; };
+		5CA4C7741578CA4C005941D1 /* WSDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WSDeck.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5CA4C7761578CA65005941D1 /* WSStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSStack.h; sourceTree = "<group>"; };
+		5CA4C7771578CA65005941D1 /* WSStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSStack.m; sourceTree = "<group>"; };
+		5CC18CB61587567D00FB0997 /* WSBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBoardView.h; sourceTree = "<group>"; };
+		5CC18CB71587567D00FB0997 /* WSBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBoardView.m; sourceTree = "<group>"; };
+		5CC18CBA15876CBD00FB0997 /* Constants+Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "Constants+Macros.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5CC18CBB15876F3800FB0997 /* WSChooseTrumpsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSChooseTrumpsView.h; sourceTree = "<group>"; };
+		5CC18CBC15876F3800FB0997 /* WSChooseTrumpsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSChooseTrumpsView.m; sourceTree = "<group>"; };
+		5CC18CBE158880DD00FB0997 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		791668E1158B67E300987C18 /* WSMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMessageView.h; sourceTree = "<group>"; };
+		791668E2158B67E300987C18 /* WSMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMessageView.m; sourceTree = "<group>"; };
+		79597DB615AF5E5700A9E894 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		79597DBC15B0177300A9E894 /* WSMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMenuView.h; sourceTree = "<group>"; };
+		79597DBD15B0177300A9E894 /* WSMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMenuView.m; sourceTree = "<group>"; };
+		7982D9FB1599D57C00F69C53 /* WSTeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTeam.h; sourceTree = "<group>"; };
+		7982D9FC1599D57C00F69C53 /* WSTeam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTeam.m; sourceTree = "<group>"; };
+		799B8660166E4F820056D7E7 /* WSDialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDialogView.h; sourceTree = "<group>"; };
+		799B8661166E4F820056D7E7 /* WSDialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDialogView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CA4C7311578C00F005941D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79597DB715AF5E5700A9E894 /* GameKit.framework in Frameworks */,
+				5CC18CBF158880DD00FB0997 /* QuartzCore.framework in Frameworks */,
+				5CA4C7391578C00F005941D1 /* UIKit.framework in Frameworks */,
+				5CA4C73B1578C00F005941D1 /* Foundation.framework in Frameworks */,
+				5CA4C73D1578C00F005941D1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CA4C7291578C00F005941D1 = {
+			isa = PBXGroup;
+			children = (
+				5CA4C73E1578C00F005941D1 /* klaverjas */,
+				5CA4C7371578C00F005941D1 /* Frameworks */,
+				5CA4C7351578C00F005941D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CA4C7351578C00F005941D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CA4C7341578C00F005941D1 /* klaverjas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CA4C7371578C00F005941D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79597DB615AF5E5700A9E894 /* GameKit.framework */,
+				5CC18CBE158880DD00FB0997 /* QuartzCore.framework */,
+				5CA4C7381578C00F005941D1 /* UIKit.framework */,
+				5CA4C73A1578C00F005941D1 /* Foundation.framework */,
+				5CA4C73C1578C00F005941D1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CA4C73E1578C00F005941D1 /* klaverjas */ = {
+			isa = PBXGroup;
+			children = (
+				5CA4C75C1578C168005941D1 /* Categories */,
+				5CA4C7611578C168005941D1 /* Resources */,
+				5CA4C7551578C033005941D1 /* Classes */,
+				5CA4C7471578C00F005941D1 /* WSAppDelegate.h */,
+				5CA4C7481578C00F005941D1 /* WSAppDelegate.m */,
+				5CA4C73F1578C00F005941D1 /* Supporting Files */,
+			);
+			path = klaverjas;
+			sourceTree = "<group>";
+		};
+		5CA4C73F1578C00F005941D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CA4C7401578C00F005941D1 /* klaverjas-Info.plist */,
+				5CA4C7411578C00F005941D1 /* InfoPlist.strings */,
+				5CA4C7441578C00F005941D1 /* main.m */,
+				5CA4C7461578C00F005941D1 /* klaverjas-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CA4C7551578C033005941D1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5CC18CBA15876CBD00FB0997 /* Constants+Macros.h */,
+				5CA4C7561578C065005941D1 /* WSGameBoard.h */,
+				5CA4C7571578C065005941D1 /* WSGameBoard.m */,
+				5C20D0D515874DE000B0A6B2 /* WSStatusView.h */,
+				5C20D0D615874DE000B0A6B2 /* WSStatusView.m */,
+				79597DBC15B0177300A9E894 /* WSMenuView.h */,
+				79597DBD15B0177300A9E894 /* WSMenuView.m */,
+				799B8660166E4F820056D7E7 /* WSDialogView.h */,
+				799B8661166E4F820056D7E7 /* WSDialogView.m */,
+				5CC18CBB15876F3800FB0997 /* WSChooseTrumpsView.h */,
+				5CC18CBC15876F3800FB0997 /* WSChooseTrumpsView.m */,
+				5CC18CB61587567D00FB0997 /* WSBoardView.h */,
+				5CC18CB71587567D00FB0997 /* WSBoardView.m */,
+				791668E1158B67E300987C18 /* WSMessageView.h */,
+				791668E2158B67E300987C18 /* WSMessageView.m */,
+				5CA4C7591578C078005941D1 /* WSCard.h */,
+				5CA4C75A1578C078005941D1 /* WSCard.m */,
+				5CA4C7761578CA65005941D1 /* WSStack.h */,
+				5CA4C7771578CA65005941D1 /* WSStack.m */,
+				5CA4C7731578CA4C005941D1 /* WSDeck.h */,
+				5CA4C7741578CA4C005941D1 /* WSDeck.m */,
+				5CA4C76C1578C1A4005941D1 /* WSPlayer.h */,
+				5CA4C76D1578C1A4005941D1 /* WSPlayer.m */,
+				5C724CE61589C9B5001B9D76 /* WSTrick.h */,
+				5C724CE71589C9B5001B9D76 /* WSTrick.m */,
+				7982D9FB1599D57C00F69C53 /* WSTeam.h */,
+				7982D9FC1599D57C00F69C53 /* WSTeam.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5CA4C75C1578C168005941D1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5CA4C75D1578C168005941D1 /* NSArray+RandomObject.h */,
+				5CA4C75E1578C168005941D1 /* NSArray+RandomObject.m */,
+				5CA4C75F1578C168005941D1 /* NSMutableArray+Shuffle.h */,
+				5CA4C7601578C168005941D1 /* NSMutableArray+Shuffle.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		5CA4C7611578C168005941D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C20D0D31586A3BF00B0A6B2 /* card_back.png */,
+				5CA4C7621578C168005941D1 /* clubs.png */,
+				5CA4C7631578C168005941D1 /* diamonds.png */,
+				5CA4C7641578C168005941D1 /* hearts.png */,
+				5CA4C7651578C168005941D1 /* spades.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CA4C7331578C00F005941D1 /* klaverjas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA4C7521578C00F005941D1 /* Build configuration list for PBXNativeTarget "klaverjas" */;
+			buildPhases = (
+				5CA4C7301578C00F005941D1 /* Sources */,
+				5CA4C7311578C00F005941D1 /* Frameworks */,
+				5CA4C7321578C00F005941D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = klaverjas;
+			productName = klaverjas;
+			productReference = 5CA4C7341578C00F005941D1 /* klaverjas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CA4C72B1578C00F005941D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Sound of Data";
+			};
+			buildConfigurationList = 5CA4C72E1578C00F005941D1 /* Build configuration list for PBXProject "klaverjas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CA4C7291578C00F005941D1;
+			productRefGroup = 5CA4C7351578C00F005941D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CA4C7331578C00F005941D1 /* klaverjas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CA4C7321578C00F005941D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA4C7431578C00F005941D1 /* InfoPlist.strings in Resources */,
+				5CA4C7681578C169005941D1 /* clubs.png in Resources */,
+				5CA4C7691578C169005941D1 /* diamonds.png in Resources */,
+				5CA4C76A1578C169005941D1 /* hearts.png in Resources */,
+				5CA4C76B1578C169005941D1 /* spades.png in Resources */,
+				5C20D0D41586A3BF00B0A6B2 /* card_back.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CA4C7301578C00F005941D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA4C7451578C00F005941D1 /* main.m in Sources */,
+				5CA4C7491578C00F005941D1 /* WSAppDelegate.m in Sources */,
+				5CA4C7581578C065005941D1 /* WSGameBoard.m in Sources */,
+				5CA4C75B1578C078005941D1 /* WSCard.m in Sources */,
+				5CA4C7661578C169005941D1 /* NSArray+RandomObject.m in Sources */,
+				5CA4C7671578C169005941D1 /* NSMutableArray+Shuffle.m in Sources */,
+				5CA4C76E1578C1A5005941D1 /* WSPlayer.m in Sources */,
+				5CA4C7751578CA4C005941D1 /* WSDeck.m in Sources */,
+				5CA4C7781578CA65005941D1 /* WSStack.m in Sources */,
+				5C20D0D715874DE100B0A6B2 /* WSStatusView.m in Sources */,
+				5CC18CB81587567D00FB0997 /* WSBoardView.m in Sources */,
+				5CC18CBD15876F3800FB0997 /* WSChooseTrumpsView.m in Sources */,
+				5C724CE81589C9B6001B9D76 /* WSTrick.m in Sources */,
+				791668E3158B67E300987C18 /* WSMessageView.m in Sources */,
+				7982D9FD1599D57C00F69C53 /* WSTeam.m in Sources */,
+				79597DBE15B0177400A9E894 /* WSMenuView.m in Sources */,
+				799B8662166E4F820056D7E7 /* WSDialogView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CA4C7411578C00F005941D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA4C7421578C00F005941D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CA4C7501578C00F005941D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CA4C7511578C00F005941D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CA4C7531578C00F005941D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "klaverjas/klaverjas-Prefix.pch";
+				INFOPLIST_FILE = "klaverjas/klaverjas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CA4C7541578C00F005941D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "klaverjas/klaverjas-Prefix.pch";
+				INFOPLIST_FILE = "klaverjas/klaverjas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CA4C72E1578C00F005941D1 /* Build configuration list for PBXProject "klaverjas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA4C7501578C00F005941D1 /* Debug */,
+				5CA4C7511578C00F005941D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA4C7521578C00F005941D1 /* Build configuration list for PBXNativeTarget "klaverjas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA4C7531578C00F005941D1 /* Debug */,
+				5CA4C7541578C00F005941D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CA4C72B1578C00F005941D1 /* Project object */;
+}

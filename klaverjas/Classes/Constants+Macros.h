@@ -3,7 +3,7 @@
 //  klaverjas
 //
 //  Created by Wolfgang Schreurs on 6/12/12.
-//  Copyright (c) 2012 Sound of Data. All rights reserved.
+//  Copyright (c) 2012 Wolfgang Schreurs. All rights reserved.
 //
 
 #ifndef klaverjas_Constants_Macros_h
